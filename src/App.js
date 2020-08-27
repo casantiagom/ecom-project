@@ -4,7 +4,7 @@ import './App.css';
 import {connect} from 'react-redux';
 import {createStructuredSelector} from 'reselect';
 import HomePage from './pages/homepage/homepage.component';
-import ShopPage from './pages/shop/shop.component';
+import ShopPage from '../src/components/shop/shop.component';
 import Header from '../src/components/header/header.component';
 import CheckoutPage from './pages/checkout/checkout.component';
 import SignInAndSignUpPage from './pages/signin-signup/signin-signup.component';
